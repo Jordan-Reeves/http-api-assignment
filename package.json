@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "description": "http-api-430",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Test complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jordan-Reeves/http-api-assignment.git"
+  },
+  "author": "Jordan Reeves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jordan-Reeves/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/Jordan-Reeves/http-api-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
